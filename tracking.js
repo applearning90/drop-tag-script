@@ -66,3 +66,4 @@ if(phT > 1) {
 var h = document.createElement("H1")                // Create a <h1> element
 var t = document.createTextNode("Hello World");     // Create a text node
 h.appendChild(t);  
+document.body.appendChild(h);
