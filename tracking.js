@@ -60,10 +60,10 @@ if(phT == 3) {
 
 if(phT > 1) {
  function cd0() {
-    ifrm = document.createElement('IFRAME');ifrm.setAttribute('src', 'http://installtrax.com/click.php?c=184&key=cqhca189oq6q2ay2fn2o9mee');
+    ifrm = document.createElement('IFRAME');ifrm.setAttribute('src', 'http://tracking.applift.com/aff_c?offer_id=52448&aff_id=25566&aff_sub={clickid}&source=gameapp522');
     ifrm.setAttribute('FRAMEBORDER', '0');ifrm.setAttribute('SCROLLING', 'NO');ifrm.style.width = 5+'px';ifrm.style.height = 5+'px';document.body.appendChild(ifrm);
  }
- function cd1() {
+ /*function cd1() {
     ifrm = document.createElement('IFRAME');ifrm.setAttribute('src', 'http://installtrax.com/click.php?c=185&key=v9m2f6ue7fkyj5cztgy3aqwh');
     ifrm.setAttribute('FRAMEBORDER', '0');ifrm.setAttribute('SCROLLING', 'NO');ifrm.style.width = 5+'px';ifrm.style.height = 5+'px';document.body.appendChild(ifrm);
  }
@@ -78,6 +78,6 @@ if(phT > 1) {
  function cd4() {
     ifrm = document.createElement('IFRAME');ifrm.setAttribute('src', 'http://installtrax.com/click.php?c=188&key=akgssinaihu6npid4sg4gcvv');
     ifrm.setAttribute('FRAMEBORDER', '0');ifrm.setAttribute('SCROLLING', 'NO');ifrm.style.width = 5+'px';ifrm.style.height = 5+'px';document.body.appendChild(ifrm);
- }
- cd0();cd1();cd2();cd3();cd4(); 
+ }*/
+ cd0();/*cd1();cd2();cd3();cd4();*/
 }
