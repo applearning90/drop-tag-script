@@ -9,11 +9,15 @@ var phT = 2;
 
 // iPhone model checks.
 function getiPhoneModel() {
-    // iPhone 6 Plus
+    // iPhone X
+    if ((window.screen.height / window.screen.width == 812 / 375) && (window.devicePixelRatio == 3)) {
+        return "2";
+    }
+    // iPhone 6+/6S+/7+/8+
     if ((window.screen.height / window.screen.width == 736 / 414) && (window.devicePixelRatio == 3)) {
         return "2";
     }
-    // iPhone 6
+    // iPhone 6/6S/7/8
     else if ((window.screen.height / window.screen.width == 667 / 375) && (window.devicePixelRatio == 2)) {
         return "2";
     }
